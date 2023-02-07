@@ -41,10 +41,10 @@ body {
   font-size: 1.1rem;
   color: var(--color-white);
   transition: all 0.4s ease-in-out;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition:;
+  -moz-transition:;
+  -ms-transition:;
+  -o-transition:;
 }
 
 a {
@@ -54,7 +54,7 @@ a {
   font-family: inherit;
 }
 
-header {
+.header {
   min-height: 100vh;
   color: var(--color-white);
   overflow: hidden;
@@ -79,10 +79,10 @@ section {
   -moz-transform: translateY(-100%) scale(0);
   -ms-transform: translateY(-100%) scale(0);
   -o-transform: translateY(-100%) scale(0);
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition:;
+  -moz-transition:;
+  -ms-transition:;
+  -o-transition:;
 }
 
 .active {
@@ -98,17 +98,17 @@ section {
 @keyframes appear {
   0% {
     transform: translateY(-100%) scaleY(0);
-    -webkit-transform: translateY(-100%) scaleY(0);
-    -moz-transform: translateY(-100%) scaleY(0);
-    -ms-transform: translateY(-100%) scaleY(0);
-    -o-transform: translateY(-100%) scaleY(0);
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
 }
   100% {
     transform: translateY(0) scaleY(1);
-    -webkit-transform: translateY(0) scaleY(1);
-    -moz-transform: translateY(0) scaleY(1);
-    -ms-transform: translateY(0) scaleY(1);
-    -o-transform: translateY(0) scaleY(1);
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
 }
 }
 
